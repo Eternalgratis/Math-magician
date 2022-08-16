@@ -40,3 +40,64 @@
 .btn-symbol {
   background-color: rgb(236, 141, 53);
 }
+
+#root {
+  background-color: violet;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 15px;
+
+  /* background-color: violet; */
+  background-color: rgb(184, 143, 184);
+}
+
+.text {
+  background-color: violet;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  font-size: 30px;
+  gap: 8px;
+}
+
+.nav-list a {
+  text-decoration: none;
+}
+
+.nav-list li {
+  border-right: 1px solid black;
+  padding: 2px;
+}
+
+.nav-list li:nth-child(3) {
+  border-right: none;
+}
+
+.title {
+  margin: 20px;
+  padding: 5px;
+}
+
+.p-one {
+  margin: 20px;
+}
+
+.p-two {
+  margin: 20px;
+}
+
+.quote {
+  text-align: center;
+  margin: 50px;
+  font-size: 20px;
+  background-color: violet;
+}
