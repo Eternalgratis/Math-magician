@@ -20,7 +20,7 @@ Step 2: Copy All Project files and run using VSCODE. HTML can be viewed in brows
 
 ## Built With
 
-- HTML (HyperText Markup Language)
+- JSX
 - CSS (Cascading Style Sheets)
 - Javascript
 - Webpack
