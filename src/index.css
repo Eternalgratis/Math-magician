@@ -51,6 +51,7 @@
   justify-content: space-between;
   margin: 20px;
   padding: 15px;
+
   /* background-color: violet; */
   background-color: rgb(184, 143, 184);
 }
@@ -64,7 +65,7 @@
 .nav-list {
   list-style: none;
   display: flex;
-  font-size: bold;
+  font-size: 30px;
   gap: 8px;
 }
 
@@ -73,8 +74,8 @@
 }
 
 .nav-list li {
- border-right: 1px solid black;
- padding: 2px;
+  border-right: 1px solid black;
+  padding: 2px;
 }
 
 .nav-list li:nth-child(3) {
